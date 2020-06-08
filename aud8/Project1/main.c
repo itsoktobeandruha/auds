@@ -91,7 +91,7 @@ int main()
 			swapTwoElements(head);
 			break;
 		}
-		case '10':
+		case '0':
 		{
 			double value;
 			scanf_s("%lf", &value);
@@ -108,7 +108,6 @@ int main()
 		}
 		}
 	}
-
 	freeAll(head, tail);
 	system("pause");
 	return 0;

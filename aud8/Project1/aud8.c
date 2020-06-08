@@ -39,7 +39,6 @@ list* addToRight(list* tail, double right_rand, double left_rand)
 		tail->value += (double)(rand()) / RAND_MAX * 1;
 	else tail->value -= (double)(rand()) / RAND_MAX * 1;
 	tail->next = NULL;
-
 	return tail;
 }
 
@@ -53,7 +52,6 @@ list* addToLeft(list* head, double right_rand, double left_rand)
 	if (head->value > 0)
 		head->value += (double)(rand()) / RAND_MAX * 1;
 	else head->value -= (double)(rand()) / RAND_MAX * 1;
-
 	return head;
 }
 
@@ -146,6 +144,7 @@ void addBeforeValue(list* head, list* current, double right_rand, double left_ra
 	current = findByValue(head, value);
 	addBeforeCurrent(current, right_rand, left_rand);
 }
+
 void splice(list* left, list* right, list* position)
 {
 	if (position->next == left)

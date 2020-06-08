@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.c">
+    <ClCompile Include="main.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="functions.c">
+    <ClCompile Include="aud8.c">
       <Filter>Файлы ресурсов</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,4 +1,4 @@
-﻿  Source.c
-C:\Users\stranger\Desktop\auds\auds\aud8\Project1\Source.c(34,14): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
-C:\Users\stranger\Desktop\auds\auds\aud8\Project1\Source.c(41,17): warning C4013: outputToRight: нет определения; предполагается "extern" с возвратом типа "int"
+﻿  main.c
+C:\Users\stranger\Desktop\auds\auds\aud8\Project1\main.c(34,14): warning C4013: _getch: нет определения; предполагается "extern" с возвратом типа "int"
+C:\Users\stranger\Desktop\auds\auds\aud8\Project1\main.c(41,17): warning C4013: outputToRight: нет определения; предполагается "extern" с возвратом типа "int"
   Project1.vcxproj -> C:\Users\stranger\Desktop\auds\auds\aud8\Debug\Project1.exe
