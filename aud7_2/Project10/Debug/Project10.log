@@ -1,0 +1,12 @@
+﻿  Source.c
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(24,19): warning C4047: функция: "LPSTR" отличается по уровням косвенного обращения от "LPSTR [30]"
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(24,19): warning C4024: GetUserNameA: различные типы для формального и фактического параметров 1
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(25,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "LPSTR *"
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(27,23): warning C4047: функция: "LPSTR" отличается по уровням косвенного обращения от "LPSTR [30]"
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(27,23): warning C4024: GetComputerNameA: различные типы для формального и фактического параметров 1
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(28,9): warning C4477: "printf": в строке форматирования "%s" требуется аргумент типа "char *", но вариативный аргумент "1" имеет тип "LPSTR *"
+C:\Users\stranger\source\repos\Project10\Project10\Source.c(22,21): warning C4101: sys_info: неиспользованная локальная переменная
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__SetupDiEnumDeviceInfo@12 в функции _main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__SetupDiGetClassDevsA@16 в функции _main
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp__SetupDiGetDeviceRegistryPropertyA@28 в функции _main
+C:\Users\stranger\source\repos\Project10\Debug\Project10.exe : fatal error LNK1120: неразрешенных внешних элементов: 3
