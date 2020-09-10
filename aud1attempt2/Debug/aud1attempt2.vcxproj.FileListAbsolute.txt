@@ -1,0 +1,2 @@
+C:\Users\stranger\Desktop\c++\aud1attempt2\Debug\aud1attempt2.exe
+C:\Users\stranger\Desktop\c++\aud1attempt2\Debug\aud1attempt2.pdb
